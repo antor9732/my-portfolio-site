@@ -1,13 +1,13 @@
 <template>
   <section
     id="hero"
-    class="d-flex flex-column justify-content-center align-items-center text-center min-vh-100"
+    class="d-flex flex-column justify-content-center align-items-center text-center py-5"
     style="background: linear-gradient(135deg, #7b2ff2 0%, #22388a 100%)"
   >
     <img
       src="/src/assets/antor2.jpg"
       alt="Md. Mahmudul Hasan"
-      class="mb-3 p-1 bg-white rounded-circle shadow"
+      class="mb-3 p-1 bg-white rounded-circle shadow mt-5 "
       style="
         width: 220px;
         height: 220px;

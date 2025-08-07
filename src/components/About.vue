@@ -3,7 +3,7 @@
   <section
     id="about"
     class="about-section d-flex flex-column justify-content-center align-items-center py-5"
-    style="background: linear-gradient(45deg, #501fc8 0%, #22388A 100%); color: white; min-height: 80vh"
+    style="background: linear-gradient(45deg, #501fc8 0%, #22388A 100%); color: white; "
   >
     <div class="container">
       <div class="row align-items-center g-4">
@@ -76,7 +76,7 @@
           <!-- Download CV Button -->
           <div class="mt-4">
             <a
-              href="/path-to-your-cv.pdf"
+              href="/Mahmudul Hasan_WordPress-cv.pdf"
               class="btn btn-outline-light px-4 py-2 fw-semibold"
               download
             >

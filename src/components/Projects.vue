@@ -60,7 +60,7 @@ const projects = [
     description: 'Comprehensive e-learning platform built with PHP and Laravel featuring user management, course creation, progress tracking, and interactive learning modules.',
     tags: 'PHP, Laravel, MySQL, Bootstrap, JavaScript',
     link: '#',
-    demoLabel: 'Code',
+    demoLabel: 'Code resource',
     category: 'Codebase',
     image: imagesPng,
   },
@@ -69,7 +69,7 @@ const projects = [
     description: 'E-commerce website for grocery products with shopping cart functionality, user authentication, order management, and responsive design for optimal user experience.',
     tags: 'HTML5, CSS3, JavaScript, Bootstrap, MySQL',
     link: '#',
-    demoLabel: 'Code',
+    demoLabel: 'Code resource',
     category: 'Codebase',
     image: imagesPng,
   },
@@ -80,7 +80,7 @@ const codebaseProjects = projects.filter(p => p.category === 'Codebase');
 </script>
 
 <template>
-  <section id="projects" class="py-5" style="background: linear-gradient(112deg, #501fc8 0%, #22388A 100%); min-height: 100vh;">
+  <section id="projects" class="py-5" style="background: linear-gradient(112deg, #501fc8 0%, #22388A 100%);">
     <div class="container">
       <h2 class="text-center fw-bold mb-4" style="color: #e7c6ff; font-size: 2.5rem;">Featured Projects</h2>
       <p class="text-center text-white mb-5">Showcasing my best work and technical expertise</p>
@@ -134,10 +134,10 @@ const codebaseProjects = projects.filter(p => p.category === 'Codebase');
           </Slide>
         </Carousel>
       </div>
-      <div class="bg-dark bg-opacity-50 rounded-4 p-4 text-white mt-4">
+      <!-- <div class="bg-dark bg-opacity-50 rounded-4 p-4 text-white mt-4">
         <h5 class="fw-bold mb-2">Final Year Research Project</h5>
         <p class="mb-0">Detection of Early-Stage Breast Cancer through Machine Learning<br>Developed and implemented various machine learning algorithms to detect breast cancer in early stages. Through comprehensive research and testing, we achieved the highest accuracy among compared algorithms, contributing to early detection methodologies in medical diagnostics.</p>
-      </div>
+      </div> -->
     </div>
   </section>
 </template>

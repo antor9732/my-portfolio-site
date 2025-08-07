@@ -101,7 +101,7 @@ export default {
       <!-- CV Button -->
       <div class="d-none d-lg-block">
         <a
-          href="/cv.pdf"
+          href="/Mahmudul Hasan_WordPress-cv.pdf"
           target="_blank"
           class="btn btn-outline-light fw-semibold ms-3"
           style="border-radius: 30px; padding: 6px 20px"

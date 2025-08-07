@@ -62,7 +62,6 @@
 <style scoped>
 .contact-section {
   background: linear-gradient(135deg, #7b2ff2 0%, #22388A 100%);
-  min-height: 100vh;
   padding: 50px 0;
 }
 .contact-title {

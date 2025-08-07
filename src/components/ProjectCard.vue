@@ -16,7 +16,7 @@ const props = defineProps({
       <h5 class="card-title fw-bold mb-2">{{ title }}</h5>
       <p class="card-text mb-3">{{ description }}</p>
       <div class="mb-3">
-        <span v-for="tag in tags.split(',')" :key="tag" class="badge bg-secondary me-1 mb-1">{{ tag.trim() }}</span>
+        <span v-for="tag in tags.split(',')" :key="tag" class="badge bg-success text-gray me-1 mb-1">{{ tag.trim() }}</span>
       </div>
       <a :href="link" target="_blank" class="btn btn-sm btn-primary px-3">{{ demoLabel }}</a>
     </div>

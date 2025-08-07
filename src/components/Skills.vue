@@ -82,7 +82,6 @@ export default defineComponent({
     class="skills-section" id="skills"
     style="
       background: linear-gradient(45deg, #7b2ff2 0%, #22388a 100%);
-      min-height: 100vh;
       padding: 50px 0;
     "
   >
