@@ -3,17 +3,40 @@ import ProjectCard from './ProjectCard.vue';
 import { Carousel, Slide, Navigation, Pagination } from 'vue3-carousel';
 import 'vue3-carousel/dist/carousel.css';
 import imagesPng from '../assets/image.png';
+import PdcaImage from '../assets/image.png';
+import dirkImage from '../assets/dirkWeb.png';
+import wmsImage from '../assets/wms.png';
+import SendOutImage from '../assets/Sendout.png';
+import AskGxpImage from '../assets/Askgxp.png';
 
 const projects = [
   {
-    title: 'Dirk Burmann Portfolio',
+    title: 'Dirk Burmann ',
     description: 'Developed a fully responsive and visually captivating personal portfolio website using WordPress, showcasing creative and professional work with custom design and SEO optimization.',
-    tags: 'WordPress, Elementor, Adobe Photoshop, SEO, WPML',
+    tags: 'WordPress, Elementor,Elementor Pro, Adobe Photoshop, SEO, WPML',
     link: 'http://dirkburmann.com/',
     demoLabel: 'Live Demo',
     category: 'WordPress',
-    image: imagesPng,
+    image: dirkImage,
   },
+   {
+    title: 'Work Made Simple (WMS)',
+    description: 'Developed and implemented tailored ERP ecosystems using Microsoft Dynamics 365 Business Central, providing solutions for finance, supply chain, and warehouse management. Successfully migrated clients from legacy systems and optimized database performance for large-scale operations.',
+    tags: 'Microsoft Dynamics 365 Business Central, ERP, LS Retail, Continia, Tasklet Factory, Power Platform, Custom ERP',
+    link: 'https://wmsit.com.au/',
+    demoLabel: 'Live Demo',
+    category: 'WordPress',
+    image: wmsImage,
+},
+ {
+    title: 'PDCA Consulting',
+    description: 'Specialized in providing expert coaching, consulting, and training in ITIL, Agile, and PRINCE2. Empowers teams, optimizes workflows, and helps organizations achieve measurable improvements in IT service management and project delivery.',
+    tags: 'ITIL, Agile, PRINCE2, Coaching, Consulting, Training, Certification, IT Service Management',
+    link: 'https://pdcaconsulting.com/',
+    demoLabel: 'Live Demo',
+    category: 'WordPress',
+    image: PdcaImage,
+},
   {
     title: 'Sendout.ai',
     description: 'Created an AI-driven platform on Webflow for automating lead generation with predictive analytics, custom animations, and interactive elements for enhanced user experience.',
@@ -21,7 +44,16 @@ const projects = [
     link: 'https://prospectengine.ai',
     demoLabel: 'Live Demo',
     category: 'Webflow',
-    image: imagesPng,
+    image: SendOutImage,
+  },
+  {
+    title: 'AskGxP',
+    description: 'Developed an AI-powered knowledge management solution for the pharmaceutical industry. The platform features an AI-driven document generator for SOPs and protocols, an expert AI chat assistant, and an interactive learning platform to enhance compliance and streamline operations.',
+    tags: 'AI, Pharmaceutical, Knowledge Management, SOPs, Compliance, Document Generator, AI Chat, Learning Platform',
+    link: 'https://www.askgxp.com/',
+    demoLabel: 'Live Demo',
+    category: 'Webflow',
+    image: AskGxpImage,
   },
   {
     title: 'E-Learning System',
@@ -71,7 +103,7 @@ const codebaseProjects = projects.filter(p => p.category === 'Codebase');
             </div>
           </template>
           <Slide v-for="project in wpWebflowProjects" :key="project.title">
-            <div class="px-2">
+            <div class="px-2 h-100">
               <ProjectCard v-bind="project" />
             </div>
           </Slide>
@@ -96,7 +128,7 @@ const codebaseProjects = projects.filter(p => p.category === 'Codebase');
             </div>
           </template>
           <Slide v-for="project in codebaseProjects" :key="project.title">
-            <div class="px-2">
+            <div class="px-2 h-100">
               <ProjectCard v-bind="project" />
             </div>
           </Slide>

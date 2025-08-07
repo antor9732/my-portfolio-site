@@ -1,6 +1,7 @@
 <template>
  
   <section
+    id="about"
     class="about-section d-flex flex-column justify-content-center align-items-center py-5"
     style="background: linear-gradient(45deg, #501fc8 0%, #22388A 100%); color: white; min-height: 80vh"
   >

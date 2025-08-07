@@ -9,7 +9,7 @@ export default {
         { name: "Home", href: "/" },
         { name: "About", href: "#about" },
         { name: "Skills", href: "#skills" },
-        { name: "Services", href: "#services" },
+        { name: "Projects", href: "#projects" },
         { name: "Contact", href: "#contact" },
       ],
     };
@@ -21,6 +21,18 @@ export default {
     window.removeEventListener("scroll", this.handleScroll);
   },
   methods: {
+    scrollToSection(href, event) {
+      event.preventDefault();
+      if (href === '/' || href === "/") {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      } else {
+        const el = document.querySelector(href);
+        if (el) {
+          el.scrollIntoView({ behavior: 'smooth' });
+        }
+      }
+      this.menuOpen = false;
+    },
     handleScroll() {
       this.isSticky = window.scrollY > 50;
     },
@@ -79,7 +91,7 @@ export default {
       >
         <ul class="navbar-nav">
           <li class="nav-item" v-for="link in links" :key="link.href">
-            <a class="nav-link fw-semibold px-3" :href="link.href">{{
+            <a class="nav-link fw-semibold px-3" :href="link.href" @click="scrollToSection(link.href, $event)">{{
               link.name
             }}</a>
           </li>

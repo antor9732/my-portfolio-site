@@ -79,7 +79,7 @@ export default defineComponent({
 
 <template>
   <div
-    class="skills-section"
+    class="skills-section" id="skills"
     style="
       background: linear-gradient(45deg, #7b2ff2 0%, #22388a 100%);
       min-height: 100vh;
@@ -176,8 +176,7 @@ export default defineComponent({
             </div>
             <h5 class="fw-bold mt-3 mb-2">Frameworks</h5>
             <div class="skills-tags justify-content-center mb-2">
-              <span>Laravel</span><span>Vue.js</span><span>React</span
-              ><span>Tailwind CSS</span>
+              <span>Laravel</span><span>Vue.js</span><span>Tailwind CSS</span>
             </div>
           </div>
         </div>
