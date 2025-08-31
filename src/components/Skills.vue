@@ -6,13 +6,13 @@ export default defineComponent({
   data() {
     return {
       skills: [
-        { name: "WordPress", percent: 100, animatedWidth: 0 },
-        { name: "Webflow", percent: 100, animatedWidth: 0 },
-        { name: "PHP", percent: 65, animatedWidth: 0 },
-        { name: "Laravel", percent: 85, animatedWidth: 0 },
-        { name: "VueJs", percent: 70, animatedWidth: 0 },
+        { name: "WordPress", percent: 95, animatedWidth: 0 },
+        { name: "Webflow", percent: 85, animatedWidth: 0 },
+        { name: "PHP", percent: 75, animatedWidth: 0 },
+        { name: "Laravel", percent: 60, animatedWidth: 0 },
+        { name: "VueJs", percent: 65, animatedWidth: 0 },
         { name: "Bootstrap", percent: 90, animatedWidth: 0 },
-        { name: "Bootstrap", percent: 90, animatedWidth: 0 },
+        { name: "Tailwind", percent: 90, animatedWidth: 0 },
       ],
       metrics: [
         {
