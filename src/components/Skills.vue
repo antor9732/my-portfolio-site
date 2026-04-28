@@ -6,9 +6,9 @@ export default defineComponent({
   data() {
     return {
       skills: [
-        { name: "WordPress", percent: 95, animatedWidth: 0 },
-        { name: "Webflow", percent: 85, animatedWidth: 0 },
-        { name: "PHP", percent: 75, animatedWidth: 0 },
+        { name: "WordPress", percent: 100, animatedWidth: 0 },
+        { name: "Webflow", percent: 95, animatedWidth: 0 },
+        { name: "PHP", percent: 97, animatedWidth: 0 },
         { name: "Laravel", percent: 60, animatedWidth: 0 },
         { name: "VueJs", percent: 65, animatedWidth: 0 },
         { name: "Bootstrap", percent: 90, animatedWidth: 0 },
@@ -17,7 +17,7 @@ export default defineComponent({
       metrics: [
         {
           label: "Years Experience",
-          value: 3,
+          value: 4,
           suffix: "+",
           current: 0,
           duration: 1000,
@@ -190,7 +190,7 @@ export default defineComponent({
             <h5 class="fw-bold mt-3 mb-2">CMS & Platforms</h5>
             <div class="skills-tags justify-content-center mb-2">
               <span>WordPress</span><span>Webflow</span
-              ><span>Theme Customization</span><span>SEO Optimization</span>
+              ><span>Theme Customization</span><span>Plugin Customization & Development</span><span>SEO Optimization</span>
             </div>
           </div>
         </div>

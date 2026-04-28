@@ -4,3 +4,14 @@ body {
     font-family: 'Arial', sans-serif;
     background: linear-gradient(135deg, #7b2ff2 0%, #22388A 100%);
 }
+@media (min-width: 1024px) {
+    .container, .container-md, .container-sm {
+        max-width: 1400px !important;
+    }
+}
+@media (min-width: 768px) {
+    .container, .container-md, .container-sm {
+        max-width: 1000px;
+    }
+    
+}

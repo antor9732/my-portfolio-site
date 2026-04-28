@@ -5,11 +5,41 @@ import 'vue3-carousel/dist/carousel.css';
 import imagesPng from '../assets/image.png';
 import PdcaImage from '../assets/image.png';
 import dirkImage from '../assets/dirkWeb.png';
+import h1studio from '../assets/h1studio.png';
+import babglobal from '../assets/bab.png';
+import retro from '../assets/retro.png';
 import wmsImage from '../assets/wms.png';
 import SendOutImage from '../assets/Sendout.png';
 import AskGxpImage from '../assets/Askgxp.png';
 
 const projects = [
+  {
+    title: 'H1 Studio',
+    description: 'Developed a high-end, interactive agency website using the Salient Theme and WPBakery Page Builder. The project features sophisticated animations, a sleek portfolio showcase, and a modern aesthetic tailored for a digital media studio.',
+    tags: 'WordPress, Salient Theme, WPBakery, Responsive Design, Digital Media Agency, UI/UX',
+    link: 'https://h1studio.au/',
+    demoLabel: 'Live Demo',
+    category: 'WordPress',
+    image: h1studio,
+  },
+  {
+    title: 'BAB Global Organization',
+    description: 'A professional corporate platform built for a global organization. The site is focused on accessibility and clear communication, featuring a well-structured layout to showcase community initiatives, events, and organizational milestones.',
+    tags: 'WordPress, Elementor, Corporate Web Design, SEO, Global Branding, Non-Profit/Organization',
+    link: 'https://babglobalorganization.com/',
+    demoLabel: 'Live Demo',
+    category: 'WordPress',
+    image: babglobal,
+  },
+  {
+    title: 'Retro Mini',
+    description: 'Designed and developed a high-performance e-commerce store hosted on Kinsta’s cloud infrastructure. This site focuses on a seamless shopping experience for retro gaming products, featuring optimized speed and a clean, user-friendly interface.',
+    tags: 'WordPress, WooCommerce, Kinsta Hosting, E-commerce, Speed Optimization, Modern UI',
+    link: 'https://retromini.kinsta.cloud/',
+    demoLabel: 'Live Demo',
+    category: 'WordPress',
+    image: retro,
+  },
   {
     title: 'Dirk Burmann ',
     description: 'Developed a fully responsive and visually captivating personal portfolio website using WordPress, showcasing creative and professional work with custom design and SEO optimization.',
@@ -110,30 +140,30 @@ const codebaseProjects = projects.filter(p => p.category === 'Codebase');
         </Carousel>
       </div>
       <!-- Codebase Projects Carousel -->
-      <h4 class="text-white mt-4 mb-3">Codebase Projects (Laravel, VueJs, etc.)</h4>
-      <div class="d-flex flex-column align-items-center mb-4">
-        <Carousel 
-          :items-to-show="2" 
-          :wrap-around="true" 
-          navigationEnabled 
-          paginationEnabled
-          :navigation-next-label="'>'"
-          :navigation-prev-label="'<'"
-          class="w-100 custom-carousel"
-        >
-          <template #addons>
-            <div class="carousel-controls">
-              <CarouselNavigation />
-              <CarouselPagination />
-            </div>
-          </template>
-          <Slide v-for="project in codebaseProjects" :key="project.title">
-            <div class="px-2 h-100">
-              <ProjectCard v-bind="project" />
-            </div>
-          </Slide>
-        </Carousel>
-      </div>
+      <!-- <h4 class="text-white mt-4 mb-3">Codebase Projects (Laravel, VueJs, etc.)</h4> -->
+      <!-- <div class="d-flex flex-column align-items-center mb-4"> -->
+        <!-- <Carousel  -->
+          <!-- :items-to-show="2"  -->
+          <!-- :wrap-around="true"  -->
+          <!-- navigationEnabled  -->
+          <!-- paginationEnabled -->
+          <!-- :navigation-next-label="'>'" -->
+          <!-- :navigation-prev-label="'<'" -->
+          <!-- class="w-100 custom-carousel" -->
+        <!-- > -->
+          <!-- <template #addons> -->
+            <!-- <div class="carousel-controls"> -->
+              <!-- <CarouselNavigation /> -->
+              <!-- <CarouselPagination /> -->
+            <!-- </div> -->
+          <!-- </template> -->
+          <!-- <Slide v-for="project in codebaseProjects" :key="project.title"> -->
+            <!-- <div class="px-2 h-100"> -->
+              <!-- <ProjectCard v-bind="project" /> -->
+            <!-- </div> -->
+          <!-- </Slide> -->
+        <!-- </Carousel> -->
+      <!-- </div> -->
       <!-- <div class="bg-dark bg-opacity-50 rounded-4 p-4 text-white mt-4">
         <h5 class="fw-bold mb-2">Final Year Research Project</h5>
         <p class="mb-0">Detection of Early-Stage Breast Cancer through Machine Learning<br>Developed and implemented various machine learning algorithms to detect breast cancer in early stages. Through comprehensive research and testing, we achieved the highest accuracy among compared algorithms, contributing to early detection methodologies in medical diagnostics.</p>

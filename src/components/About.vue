@@ -34,10 +34,9 @@
          
           <h4 class="fw-bold display-5 mb-3">Professional Journey</h4>
           <p>
-            I'm a passionate Full-Stack Web Developer with over 3 years of
+            I'm a passionate Full-Stack Web Developer with over 4 years of
             experience specializing in WordPress, Webflow, and modern PHP
-            frameworks. Currently serving as a Senior WordPress/Webflow
-            Developer at Prospect Engine, I create dynamic, responsive websites
+            frameworks. Currently serving as a WordPress plugin Developer at WebCartisan LLC, I create dynamic, responsive websites
             that deliver exceptional user experiences.
           </p>
           <h4 class="fw-bold mt-4 mb-3">My Passion</h4>
@@ -53,7 +52,7 @@
             <div class="col-6 col-sm-4">
               <div class=" text-white rounded-pill py-3 px-2 shadow-sm"
               style="background-color: rgba(255, 255, 255, 0.15)">
-                <h4 class="fw-bold mb-0">3+</h4>
+                <h4 class="fw-bold mb-0">4+</h4>
                 <small class="text-white">Years Experience</small>
               </div>
             </div>
@@ -76,8 +75,8 @@
           <!-- Download CV Button -->
           <div class="mt-4">
             <a
-              href="/public/Md Mahmudul Hasan Wordpress Cv.pdf"
-              class="btn btn-outline-light px-4 py-2 fw-semibold"
+              href="/Md_Mahmudul_Hasan_ordpress_resume.pdf"
+              class="btn btn-outline-light px-4 py-2 fw-semibold" target="_blank"
               download
             >
               <i class="bi bi-download me-2"></i>Download CV
